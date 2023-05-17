@@ -1,0 +1,68 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "cadastro-de-usuario;pagina-de-login",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "pagina de login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "usuario deseja se cadastrar",
+            "match": {
+              "location": "features\\step-definitions\\Test-atv.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10376835799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "coloca seus dados e senha",
+            "match": {
+              "location": "features\\step-definitions\\Test-atv.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1784004800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "cadastro realizado com sucesso",
+            "match": {
+              "location": "features\\step-definitions\\Test-atv.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1874484200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "cadastro-de-usuario",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "cadastro de usuario",
+    "tags": [],
+    "uri": "features\\Test-atv.feature"
+  }
+]
